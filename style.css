@@ -58,26 +58,27 @@ header hr {
     padding: 20px 15px;
 }
 
-/*=== Quote ===*/
-.quote-text {
+/*=== Row One Quote ===*/
+#row-one .quote-text {
     width: 90%;
     padding: 50px 20px;
     margin: 110px 55px;
 }
 
-.quote-text span {
-    color: darkred;
+#row-one .quote-text span {
+    color: #A52A2A;
     font-size: 55px;
     font-family: "Times New Roman", serif;
 }
 
-.quote-text p {
+#row-one .quote-text p {
     font-weight: bold;
     color: #333;
 }
 
-.quote-text .author {
-    color: darkred;
+#row-one .quote-text .author {
+    color: #A52A2A;
+    font-size: 16px;
 }
 
 /*=== Tuna Block ===*/
@@ -106,6 +107,7 @@ header hr {
     color: #fff;
     font-weight: bold;
     padding: 20px;
+    text-align: center;
 }
 
 .tuna p span {
@@ -113,3 +115,58 @@ header hr {
 }
 
 /*== Row Three Quote Box ==*/
+#row-three .quote-text {
+    width: 90%;
+    padding: 50px 20px;
+    margin: 110px 15px;
+}
+
+#row-three .quote-text span {
+    color: #CD5C5C;
+    font-size: 55px;
+    font-family: "Times New Roman", serif;
+}
+
+#row-three .quote-text p {
+    font-weight: bold;
+    color: #333;
+}
+
+#row-three .quote-text .author {
+    color: #CD5C5C;
+    font-size: 16px;
+}
+
+/*== Row Four Careers ==*/
+.career {
+    height: 420px;
+}
+
+.career h3 {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.career p {
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    line-height: 32px;
+}
+
+/*== Footer ==*/
+footer {
+    border: 2px solid red;
+}
+
+footer .line {
+    width: 40%;
+}
+
+footer .text {
+    width: 20%;
+    text-align: center;
+}
