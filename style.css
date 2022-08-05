@@ -1,0 +1,115 @@
+/* == Base Styles ==*/
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.board {
+    margin: 50px auto;
+    width: 900px;
+    text-transform: uppercase;
+}
+
+/*== Grid System ==*/
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.block {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.third-width {
+    width: 30%;
+    float: left;
+}
+
+/*== Header ==*/
+header {
+    padding: 20px;
+}
+
+header .line {
+    padding: 20px 0;
+}
+
+header h4 {
+    text-align: center;
+}
+
+header hr {
+    margin: 15px 0;
+}
+
+/*== Rows ==*/
+.row {
+    margin: 40px 20px;
+    height: 450px;
+}
+
+.row .third-width {
+    margin-right: 20px;
+}
+
+.row img {
+    width: 100%;
+    padding: 20px 15px;
+}
+
+/*=== Quote ===*/
+.quote-text {
+    width: 90%;
+    padding: 50px 20px;
+    margin: 110px 55px;
+}
+
+.quote-text span {
+    color: darkred;
+    font-size: 55px;
+    font-family: "Times New Roman", serif;
+}
+
+.quote-text p {
+    font-weight: bold;
+    color: #333;
+}
+
+.quote-text .author {
+    color: darkred;
+}
+
+/*=== Tuna Block ===*/
+.tuna {
+    height: 400px;
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/24/17/44/retro-kitchen-2095748_960_720.jpg");
+}
+
+.tuna .block-text {
+    background-color: #2F4F4F;
+    opacity: 0.9;
+    height: 400px;
+}
+
+.tuna h3 {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.tuna h4 {
+    text-align: center;
+    color: #696969
+}
+
+.tuna p {
+    color: #fff;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.tuna p span {
+    color: #333;
+}
+
+/*== Row Three Quote Box ==*/
